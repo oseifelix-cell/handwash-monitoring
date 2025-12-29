@@ -1,0 +1,78 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# PyTorch Models
+*.pth
+*.pt
+*.ckpt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/videos/*.mp4
+data/videos/*.avi
+data/videos/*.mov
+
+# Processed data
+outputs/sequences_X.npy
+outputs/sequences_y.npy
+outputs/video_ids.npy
+outputs/checkpoints/*.pt
+outputs/checkpoints_ensemble/*.pt
+outputs/*.npy
+
+# Keep folder structure
+!data/videos/.gitkeep
+!data/annotations/.gitkeep
+!outputs/.gitkeep
+!outputs/checkpoints/.gitkeep
+!outputs/checkpoints_ensemble/.gitkeep
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+.cache/
+
+# Windows
+Thumbs.db
+Desktop.ini
