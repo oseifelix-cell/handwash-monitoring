@@ -1,0 +1,33 @@
+============================================================
+HANDWASH LSTM MODEL WEIGHT REPORT
+============================================================
+
+Model 1:
+  Hidden size   : 128
+  Parameters    : 727,050
+  Model size    : 2.77 MB
+
+Model 2:
+  Hidden size   : 112
+  Parameters    : 579,626
+  Model size    : 2.21 MB
+
+Model 3:
+  Hidden size   : 144
+  Parameters    : 891,882
+  Model size    : 3.40 MB
+
+Model 4:
+  Hidden size   : 128
+  Parameters    : 727,050
+  Model size    : 2.77 MB
+
+Model 5:
+  Hidden size   : 96
+  Parameters    : 449,610
+  Model size    : 1.72 MB
+
+------------------------------------------------------------
+Ensemble total parameters : 3,375,218
+Ensemble total size       : 12.88 MB
+============================================================

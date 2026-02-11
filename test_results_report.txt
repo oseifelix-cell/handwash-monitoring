@@ -1,0 +1,48 @@
+======================================================================
+WHO HANDWASHING COMPLIANCE TEST REPORT
+======================================================================
+
+Video Analyzed: C:\Users\osei5\OneDrive\Desktop\test_handwashing\2020-06-26_18-28-10_camera102.mp4
+Analysis Date: 2026-01-30 00:56:12
+System: Ensemble LSTM (5 models, 90.83% accuracy)
+
+----------------------------------------------------------------------
+OVERALL RESULT
+----------------------------------------------------------------------
+
+❌ FAILED - Handwashing incomplete
+
+Missing 3 required step(s):
+  ✗ Step 2: Right Palm over Left Dorsum
+  ✗ Step 4: Fingers Interlaced
+  ✗ Step 5: Backs of Fingers
+
+----------------------------------------------------------------------
+DETAILED ANALYSIS
+----------------------------------------------------------------------
+
+Total Sequences: 51
+Average Confidence: 71.8%
+Video Duration: 34.9 seconds
+
+Step-by-Step Breakdown:
+Step                                          Sequences    Duration     Avg Confidence
+----------------------------------------------------------------------
+Background/Not Washing                        8            8.0          73.6%
+Step 1: Palm to Palm                          21           21.0         73.8%
+Step 3: Left Palm over Right Dorsum           6            6.0          81.5%
+Step 6: Rotational Rubbing of Thumbs          6            6.0          50.3%
+Step 7: Rotational Rubbing of Fingertips      10           10.0         72.9%
+
+----------------------------------------------------------------------
+RECOMMENDATIONS
+----------------------------------------------------------------------
+
+• Please ensure all 7 WHO steps are performed.
+• Focus on practicing these missing steps:
+  - Step 2: Right Palm over Left Dorsum
+  - Step 4: Fingers Interlaced
+  - Step 5: Backs of Fingers
+• Refer to WHO handwashing guidelines for proper technique.
+
+======================================================================

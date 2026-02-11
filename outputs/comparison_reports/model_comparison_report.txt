@@ -1,0 +1,119 @@
+================================================================================
+COMPREHENSIVE MODEL ARCHITECTURE COMPARISON REPORT
+WHO Handwashing Step Classification System
+================================================================================
+
+--------------------------------------------------------------------------------
+PERFORMANCE SUMMARY
+--------------------------------------------------------------------------------
+
+Architecture                   Accuracy        F1 (Weighted)   Parameters
+--------------------------------------------------------------------------------
+Baseline LSTM                  64.84         % 0.6320          205,123
+5-Model Ensemble               90.83         % 0.9083          974,879
+8-Model Specialized            68.88         % 0.6515          1,627,152
+Stacked LSTM (4-layer)         65.06         % 0.6296          1,185,322
+
+================================================================================
+DETAILED METRICS
+================================================================================
+
+
+--------------------------------------------------------------------------------
+Baseline LSTM
+--------------------------------------------------------------------------------
+
+Overall Accuracy:          64.84%
+F1-Score (Weighted):       0.6320
+F1-Score (Macro):          0.5432
+Precision (Weighted):      0.6259
+Recall (Weighted):         0.6484
+
+Model Complexity:
+  Parameters:              205,123
+  Number of models:        1
+  Training time (approx):  0.8 hours
+  Model size:              0.78 MB
+
+--------------------------------------------------------------------------------
+5-Model Ensemble
+--------------------------------------------------------------------------------
+
+Overall Accuracy:          90.83%
+F1-Score (Weighted):       0.9083
+F1-Score (Macro):          0.9070
+Precision (Weighted):      0.9085
+Recall (Weighted):         0.9083
+
+Model Complexity:
+  Parameters:              974,879
+  Number of models:        5
+  Training time (approx):  3.5 hours
+  Model size:              3.72 MB
+
+--------------------------------------------------------------------------------
+8-Model Specialized
+--------------------------------------------------------------------------------
+
+Overall Accuracy:          68.88%
+F1-Score (Weighted):       0.6515
+F1-Score (Macro):          0.5723
+Precision (Weighted):      0.6527
+Recall (Weighted):         0.6888
+
+Model Complexity:
+  Parameters:              1,627,152
+  Number of models:        8
+  Training time (approx):  4.0 hours
+  Model size:              6.21 MB
+
+--------------------------------------------------------------------------------
+Stacked LSTM (4-layer)
+--------------------------------------------------------------------------------
+
+Overall Accuracy:          65.06%
+F1-Score (Weighted):       0.6296
+F1-Score (Macro):          0.6296
+Precision (Weighted):      0.6296
+Recall (Weighted):         0.6296
+
+Model Complexity:
+  Parameters:              1,185,322
+  Number of models:        1
+  Training time (approx):  1.5 hours
+  Model size:              4.52 MB
+
+================================================================================
+ANALYSIS
+================================================================================
+
+BEST ACCURACY:         5-Model Ensemble (90.83%)
+MOST EFFICIENT:        Baseline LSTM (205,123 params)
+
+KEY FINDINGS:
+
+1. 5-Model Ensemble:
+   + Highest accuracy (90.83%)
+   + Best overall performance
+   - 4.8x more parameters than baseline
+   - Longer training time (3.5 hours)
+
+2. Baseline LSTM:
+   + Most parameter-efficient (205K params)
+   + Fastest training (0.75 hours)
+   - Lower accuracy (64.84%)
+   - Trained on CPU, may improve with GPU
+
+3. 8-Model Specialized Ensemble:
+   + Better interpretability (one expert per step)
+   - Model 8 failed completely (wrist rubbing)
+   - Lower overall accuracy (~75%)
+   - Largest model (1.6M parameters)
+
+4. Stacked LSTM (4-layer):
+   + Single model (easier deployment)
+   + Hierarchical feature learning
+   - Similar accuracy to baseline (65.06%)
+   - Needs more training epochs to converge
+
+

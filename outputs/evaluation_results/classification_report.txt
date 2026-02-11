@@ -1,0 +1,18 @@
+DETAILED CLASSIFICATION REPORT
+======================================================================
+
+                                          precision    recall  f1-score   support
+
+                   Background/No Washing      0.860     0.890     0.875       145
+                    Step 1: Palm to Palm      0.928     0.875     0.900       615
+     Step 2: Right Palm over Left Dorsum      0.802     0.979     0.882       141
+     Step 3: Left Palm over Right Dorsum      0.911     0.995     0.951       186
+              Step 4: Fingers Interlaced      0.937     0.902     0.919       215
+                Step 5: Backs of Fingers      0.949     0.964     0.957       194
+    Step 6: Rotational Rubbing of Thumbs      0.903     0.897     0.900       145
+Step 7: Rotational Rubbing of Fingertips      0.850     0.773     0.810        88
+    Step 8: Rotational Rubbing of Wrists      1.000     0.933     0.966        60
+
+                                accuracy                          0.908      1789
+                               macro avg      0.904     0.912     0.907      1789
+                            weighted avg      0.911     0.908     0.908      1789
