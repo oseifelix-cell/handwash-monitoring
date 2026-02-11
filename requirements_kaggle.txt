@@ -1,0 +1,29 @@
+﻿# WHO Handwashing Step Classification - Kaggle Requirements
+# Simplified for Kaggle/Google Colab compatibility
+
+# Deep Learning
+torch
+torchvision
+
+# Computer Vision
+opencv-python
+mediapipe
+Pillow
+
+# Data Science
+numpy
+pandas
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Utilities
+tqdm
+tabulate
+
+# Office Files
+python-docx
+python-pptx
+openpyxl
