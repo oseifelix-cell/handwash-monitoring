@@ -6,10 +6,11 @@ torch
 torchvision
 
 # Computer Vision
-mediapipe==0.10.21
+mediapipe==0.10.32
 Pillow
 
 # Data Science
+numpy
 pandas
 scikit-learn
 
