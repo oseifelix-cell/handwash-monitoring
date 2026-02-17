@@ -7,7 +7,7 @@ torchvision
 
 # Computer Vision
 opencv-python
-mediapipe==0.10.29
+mediapipe==0.10.20
 Pillow
 
 # Data Science
